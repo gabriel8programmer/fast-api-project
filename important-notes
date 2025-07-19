@@ -1,0 +1,11 @@
+# executar aplicação com uvicorn
+
+> uvicorn main:app --reload
+
+# criar configurações do alembic
+
+> alembic init alembic
+
+# rodar migrations no alembic
+
+> alembic revision --autogenerate -m 'initial migration'
