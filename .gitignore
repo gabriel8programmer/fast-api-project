@@ -1,0 +1,41 @@
+# Ignora ambientes virtuais
+venv/
+env/
+ENV/
+.venv/
+
+# Ignora arquivos temporários do Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Arquivos de log
+*.log
+
+# Arquivos de configurações do sistema
+.DS_Store
+Thumbs.db
+
+# Pasta do VS Code
+.vscode/
+
+# Arquivos de testes e cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Configuração de dependências
+pip-log.txt
+
+# Arquivos de banco local (caso use SQLite)
+*.sqlite3
+
+# Ignorar exportações de ambientes
+*.env
+.env.*
+
+# Pasta de build/dist se for empacotar
+build/
+dist/
+*.egg-info/
