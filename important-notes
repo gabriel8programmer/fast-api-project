@@ -9,3 +9,7 @@
 # rodar migrations no alembic
 
 > alembic revision --autogenerate -m 'initial migration'
+
+# executar migrations
+
+> alembic upgrade head
