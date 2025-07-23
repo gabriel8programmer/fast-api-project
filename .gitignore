@@ -34,6 +34,7 @@ pip-log.txt
 # Ignorar exportações de ambientes
 *.env
 .env.*
+.env
 
 # Pasta de build/dist se for empacotar
 build/
